@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![放 Server Banner 圖]
 
 **基於 Photon 的分散式 AI 圖像生成伺服器**
 
@@ -107,7 +106,7 @@ private IEnumerator ProcessRequestQueue()
 | 🖼️ VAEDebug | VAE 解碼資訊 | 上傳至 Google Drive |
 | 🌅 PNG | 最終生成圖片 | 上傳至 Google Drive |
 
-**智能檔案偵測**：
+**檔案偵測**：
 ```csharp
 private async Task<bool> IsFileReady(string filePath)
 {
@@ -300,7 +299,7 @@ private bool IsFileLocked(string filePath)
 }
 ```
 
-### ⚡ 智能重試機制
+### ⚡ 重試機制
 
 指數退避策略，提高成功率：
 ```csharp
