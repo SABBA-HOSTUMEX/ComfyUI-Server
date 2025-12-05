@@ -1,4 +1,4 @@
-# ComfyUI Server - 多人協作生成伺服器
+# ComfyUI Visualizer Server端
 
 <div align="center">
 
